@@ -14,7 +14,14 @@ A tiny static site, no build step, no framework — plain HTML/CSS/JS,
 deployed straight to GitHub Pages.
 
 - `index.html`, `style.css`, `app.js` — the whole app.
-- `data/activities.json` — the list of activities the app reads at runtime.
+- `data/activities.json` — the list of activities. Edit this file directly
+  to add, remove, or tweak ideas; the app reads it at runtime.
+
+Each entry needs: `id` (unique slug), `name`, `description`, `location`
+(`indoor` / `outdoor` / `any`), `timeOfDay` (array of `morning` /
+`afternoon` / `evening`, or `["any"]` — only checked on weekends, weekdays
+assume an evening slot), `effort` (`low` / `medium` / `high`), and `tag`
+(short sticker label shown on the result card, e.g. `"cozy"`).
 
 ## Local preview
 

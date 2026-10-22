@@ -5,7 +5,6 @@
   "description": "Pick a few dials, get a random activity to do together.",
   "type": "module",
   "scripts": {
-    "sync": "node scripts/sync-sheet.js",
     "serve": "python3 -m http.server 8080"
   }
 }

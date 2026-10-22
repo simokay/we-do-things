@@ -1,4 +1,2 @@
-.env.local
-scripts/
 node_modules/
 .DS_Store

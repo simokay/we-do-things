@@ -45,18 +45,6 @@
     "tag": "games"
   },
   {
-    "id": "bike-ride-somewhere-new",
-    "name": "Bike somewhere you've never been",
-    "description": "Pick a direction neither of you usually goes and follow it for twenty minutes, then turn around.",
-    "location": "outdoor",
-    "timeOfDay": [
-      "morning",
-      "afternoon"
-    ],
-    "effort": "high",
-    "tag": "adventure"
-  },
-  {
     "id": "museum-or-gallery",
     "name": "Visit a museum or gallery",
     "description": "Doesn't have to be the big famous one \u2014 a small local gallery works just as well.",
@@ -77,18 +65,6 @@
     ],
     "effort": "low",
     "tag": "cozy"
-  },
-  {
-    "id": "swim-outdoors",
-    "name": "Find somewhere to swim outdoors",
-    "description": "A lido, a lake, the sea \u2014 whatever's nearby and open.",
-    "location": "outdoor",
-    "timeOfDay": [
-      "morning",
-      "afternoon"
-    ],
-    "effort": "high",
-    "tag": "adventure"
   },
   {
     "id": "home-cinema-night",
@@ -215,17 +191,6 @@
     "tag": "kitchen"
   },
   {
-    "id": "morning-run-together",
-    "name": "Run together, whatever pace",
-    "description": "Doesn't need to be fast or far \u2014 the point is doing it side by side.",
-    "location": "outdoor",
-    "timeOfDay": [
-      "morning"
-    ],
-    "effort": "high",
-    "tag": "adventure"
-  },
-  {
     "id": "card-game-marathon",
     "name": "Card game marathon",
     "description": "Pick a two-player card game and play until one of you hits a target score.",
@@ -257,18 +222,6 @@
     ],
     "effort": "low",
     "tag": "culture"
-  },
-  {
-    "id": "climbing-wall",
-    "name": "Try an indoor climbing wall",
-    "description": "Most centres do taster sessions \u2014 no experience needed, just shoes you can borrow.",
-    "location": "indoor",
-    "timeOfDay": [
-      "afternoon",
-      "evening"
-    ],
-    "effort": "high",
-    "tag": "adventure"
   },
   {
     "id": "garden-or-balcony-project",
@@ -340,19 +293,6 @@
     "tag": "games"
   },
   {
-    "id": "lido-swim-brockwell",
-    "name": "Swim at Brockwell Lido",
-    "description": "A 50m outdoor pool framed by Grade II-listed art deco buildings, open year-round. Book a swim session ahead through Active Lambeth.",
-    "location": "outdoor",
-    "timeOfDay": [
-      "morning",
-      "afternoon"
-    ],
-    "effort": "high",
-    "tag": "lido",
-    "link": "https://active.lambeth.gov.uk/centres/brockwell-lido/"
-  },
-  {
     "id": "brockwell-walled-garden",
     "name": "Wander the walled garden in Brockwell Park",
     "description": "An Old English flower garden with roses, exotic plants and ornamental ponds, a five-minute walk from Herne Hill station.",
@@ -388,18 +328,6 @@
     "effort": "low",
     "tag": "market",
     "link": "https://www.timeout.com/london/shopping/herne-hill-market-1"
-  },
-  {
-    "id": "velodrome-track-taster",
-    "name": "Track taster session at Herne Hill Velodrome",
-    "description": "A cycling track used in the 1948 Olympics, right next to Brockwell Park. Adult taster sessions run Saturday afternoons \u2014 book ahead.",
-    "location": "outdoor",
-    "timeOfDay": [
-      "afternoon"
-    ],
-    "effort": "high",
-    "tag": "adventure",
-    "link": "https://hernehillvelodrome.com/"
   },
   {
     "id": "dulwich-picture-gallery",
@@ -578,18 +506,6 @@
     "tag": "nightlife"
   },
   {
-    "id": "streatham-ice-skating",
-    "name": "Ice skating at Streatham Ice and Leisure",
-    "description": "One of London's only permanent Olympic-sized rinks, with public skating sessions through the week.",
-    "location": "indoor",
-    "timeOfDay": [
-      "afternoon",
-      "evening"
-    ],
-    "effort": "high",
-    "tag": "adventure"
-  },
-  {
     "id": "streatham-common-rookery",
     "name": "Walk Streatham Common and the Rookery",
     "description": "Open lawns and a paddling pool on the Common, with a walled Edwardian garden and waterfall tucked into the Rookery at the top.",
@@ -716,19 +632,6 @@
     "effort": "low",
     "tag": "culture",
     "link": "https://www.tate.org.uk/visit/tate-modern"
-  },
-  {
-    "id": "st-pauls-golden-gallery",
-    "name": "Climb to St Paul's Golden Gallery",
-    "description": "528 steps up for a sweeping view across the Thames, the Shard and beyond \u2014 book ahead.",
-    "location": "indoor",
-    "timeOfDay": [
-      "morning",
-      "afternoon"
-    ],
-    "effort": "high",
-    "tag": "adventure",
-    "link": "https://www.stpauls.co.uk/"
   },
   {
     "id": "coal-drops-yard",

@@ -3,7 +3,7 @@
     "id": "cook-new-recipe",
     "name": "Cook a recipe neither of you has made before",
     "description": "Pick something slightly ambitious from a cookbook or a random recipe site and cook it together, start to finish.",
-    "location": "indoor",
+    "location": "home",
     "timeOfDay": [
       "afternoon",
       "evening"
@@ -37,7 +37,7 @@
     "id": "board-game-night",
     "name": "Board game tournament for two",
     "description": "Pick two or three games and play a best-of-three series. Loser makes tea.",
-    "location": "indoor",
+    "location": "home",
     "timeOfDay": [
       "evening"
     ],
@@ -71,7 +71,7 @@
     "id": "jigsaw-puzzle",
     "name": "Start a jigsaw puzzle",
     "description": "Put something on in the background and work on it together over an evening or two.",
-    "location": "indoor",
+    "location": "home",
     "timeOfDay": [
       "evening"
     ],
@@ -94,7 +94,7 @@
     "id": "home-cinema-night",
     "name": "Build a home cinema night",
     "description": "Blackout the room, make proper snacks, pick a film you've both been meaning to watch.",
-    "location": "indoor",
+    "location": "home",
     "timeOfDay": [
       "evening"
     ],
@@ -128,7 +128,7 @@
     "id": "cocktail-making",
     "name": "Try making a cocktail you've never had",
     "description": "Look up a recipe, buy whatever's missing, and make a mess of the kitchen together.",
-    "location": "indoor",
+    "location": "home",
     "timeOfDay": [
       "evening"
     ],
@@ -173,7 +173,7 @@
     "id": "learn-a-dance",
     "name": "Learn a short dance together",
     "description": "Find a beginner tutorial online and actually follow it through, even badly.",
-    "location": "indoor",
+    "location": "home",
     "timeOfDay": [
       "evening"
     ],
@@ -207,7 +207,7 @@
     "id": "cook-for-neighbours",
     "name": "Cook a big meal and invite someone over",
     "description": "More work, more reward \u2014 plan a menu and host, even if it's casual.",
-    "location": "indoor",
+    "location": "home",
     "timeOfDay": [
       "evening"
     ],
@@ -229,7 +229,7 @@
     "id": "card-game-marathon",
     "name": "Card game marathon",
     "description": "Pick a two-player card game and play until one of you hits a target score.",
-    "location": "indoor",
+    "location": "home",
     "timeOfDay": [
       "any"
     ],
@@ -285,7 +285,7 @@
     "id": "karaoke-at-home",
     "name": "Karaoke at home",
     "description": "Find a karaoke playlist online and take turns picking songs. No judgment.",
-    "location": "indoor",
+    "location": "home",
     "timeOfDay": [
       "evening"
     ],
@@ -308,7 +308,7 @@
     "id": "bake-together",
     "name": "Bake something from scratch",
     "description": "Bread, a cake, anything with a few fiddly steps you have to do together.",
-    "location": "indoor",
+    "location": "home",
     "timeOfDay": [
       "morning",
       "afternoon"
@@ -320,7 +320,7 @@
     "id": "do-nothing-together",
     "name": "Plan a do-nothing afternoon",
     "description": "No activity at all \u2014 just the same room, same blanket, no agenda.",
-    "location": "indoor",
+    "location": "home",
     "timeOfDay": [
       "afternoon"
     ],

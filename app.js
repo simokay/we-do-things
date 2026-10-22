@@ -2,8 +2,9 @@ const STEPS = [
   {
     key: "location",
     label: "Where",
-    hint: "indoors, outdoors, or no preference",
+    hint: "home, out indoors, outdoors, or no preference",
     options: [
+      { value: "home", label: "🏡 home" },
       { value: "indoor", label: "🏠 indoors" },
       { value: "outdoor", label: "🌳 outdoors" },
       { value: "any", label: "✨ either", gold: true },
@@ -176,7 +177,7 @@ function renderTopbar() {
 
 // ---------- result ----------
 
-const locationLabels = { indoor: "🏠 indoors", outdoor: "🌳 outdoors", any: "✨ either" };
+const locationLabels = { home: "🏡 home", indoor: "🏠 indoors", outdoor: "🌳 outdoors", any: "✨ either" };
 const effortLabels = { low: "🛋️ low effort", medium: "🚶 medium effort", high: "🏃 high effort" };
 const periodLabels = { weekday: "🗓️ weekday evening", weekend: "🎉 weekend" };
 

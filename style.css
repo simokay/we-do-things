@@ -279,17 +279,14 @@ p {
   animation: pop-in 0.25s cubic-bezier(.34,1.56,.64,1);
 }
 
-.map-poster h2 {
-  font-family: var(--font-poster);
+.result-activity {
+  font-family: var(--font-display);
+  font-weight: 600;
   color: var(--c-white);
-  font-size: clamp(1.7rem, 4.6vw, 2.4rem);
-  margin-bottom: 0.3em;
-}
-
-.map-poster p {
-  font-size: 1.02rem;
+  font-size: clamp(1.3rem, 3vw, 1.7rem);
+  line-height: 1.3;
   max-width: 55ch;
-  margin-bottom: 18px;
+  margin: 0.2em 0 18px;
 }
 
 .map-poster .chip {

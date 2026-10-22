@@ -182,8 +182,7 @@ const effortLabels = { low: "🏠 doorstep", medium: "🚌 local", high: "🚆 p
 const periodLabels = { weekday: "🗓️ weekday evening", weekend: "🎉 weekend" };
 
 function renderResult(activity) {
-  document.getElementById("result-name").textContent = activity.name;
-  document.getElementById("result-desc").textContent = activity.description;
+  document.getElementById("result-activity").textContent = activity.activity;
   document.getElementById("result-tag").textContent = activity.tag || "idea";
 
   const meta = document.getElementById("result-meta");

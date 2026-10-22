@@ -13,9 +13,17 @@
     rel="stylesheet"
   />
   <link rel="stylesheet" href="style.css" />
+  <script>
+    (function () {
+      var saved = localStorage.getItem("theme");
+      var theme = saved || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      document.documentElement.dataset.theme = theme;
+    })();
+  </script>
 </head>
 <body>
   <div class="page">
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode">🌙</button>
     <header class="hero">
       <span class="eyebrow">we do things</span>
       <h1 class="hero-title">what should we<br />do together?</h1>

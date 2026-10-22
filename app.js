@@ -376,3 +376,19 @@ async function loadActivities() {
 
 document.getElementById("spin-btn").addEventListener("click", spin);
 loadActivities();
+
+// ---------- theme toggle ----------
+
+const themeToggle = document.getElementById("theme-toggle");
+
+function updateThemeToggleIcon() {
+  themeToggle.textContent = document.documentElement.dataset.theme === "dark" ? "☀️" : "🌙";
+}
+
+updateThemeToggleIcon();
+themeToggle.addEventListener("click", () => {
+  const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+  document.documentElement.dataset.theme = next;
+  localStorage.setItem("theme", next);
+  updateThemeToggleIcon();
+});

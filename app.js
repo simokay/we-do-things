@@ -37,7 +37,7 @@ const STEPS = [
     hint: "how big a trip you're up for, not how tiring it is",
     options: [
       { value: "low", label: "🏠 doorstep" },
-      { value: "medium", label: "🚌 local" },
+      { value: "medium", label: "🚌 in town" },
       { value: "high", label: "🚆 proper trip" },
       { value: "any", label: "✨ any", gold: true },
     ],
@@ -178,7 +178,7 @@ function renderTopbar() {
 // ---------- result ----------
 
 const locationLabels = { home: "🏡 home", indoor: "🏠 indoors", outdoor: "🌳 outdoors", any: "✨ either" };
-const effortLabels = { low: "🏠 doorstep", medium: "🚌 local", high: "🚆 proper trip" };
+const effortLabels = { low: "🏠 doorstep", medium: "🚌 in town", high: "🚆 proper trip" };
 const periodLabels = { weekday: "🗓️ weekday evening", weekend: "🎉 weekend" };
 
 function renderResult(activity) {

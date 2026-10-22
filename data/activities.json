@@ -8,7 +8,7 @@
       "afternoon",
       "evening"
     ],
-    "effort": "medium",
+    "effort": "low",
     "tag": "kitchen"
   },
   {
@@ -85,20 +85,8 @@
     "timeOfDay": [
       "morning"
     ],
-    "effort": "low",
+    "effort": "medium",
     "tag": "outdoors"
-  },
-  {
-    "id": "hike-half-day",
-    "name": "Half-day hike",
-    "description": "Pick a trail you haven't done, pack proper snacks and water, and commit to the whole thing.",
-    "location": "outdoor",
-    "timeOfDay": [
-      "morning",
-      "afternoon"
-    ],
-    "effort": "high",
-    "tag": "adventure"
   },
   {
     "id": "cocktail-making",
@@ -119,7 +107,7 @@
     "timeOfDay": [
       "afternoon"
     ],
-    "effort": "medium",
+    "effort": "low",
     "tag": "outdoors"
   },
   {
@@ -153,7 +141,7 @@
     "timeOfDay": [
       "evening"
     ],
-    "effort": "medium",
+    "effort": "low",
     "tag": "games"
   },
   {
@@ -165,7 +153,7 @@
       "afternoon",
       "evening"
     ],
-    "effort": "medium",
+    "effort": "low",
     "tag": "culture"
   },
   {
@@ -176,7 +164,7 @@
     "timeOfDay": [
       "afternoon"
     ],
-    "effort": "low",
+    "effort": "medium",
     "tag": "adventure"
   },
   {
@@ -187,7 +175,7 @@
     "timeOfDay": [
       "evening"
     ],
-    "effort": "high",
+    "effort": "low",
     "tag": "kitchen"
   },
   {
@@ -231,7 +219,7 @@
     "timeOfDay": [
       "afternoon"
     ],
-    "effort": "medium",
+    "effort": "low",
     "tag": "cozy"
   },
   {
@@ -242,7 +230,7 @@
     "timeOfDay": [
       "evening"
     ],
-    "effort": "medium",
+    "effort": "low",
     "tag": "games"
   },
   {
@@ -254,7 +242,7 @@
       "morning",
       "afternoon"
     ],
-    "effort": "medium",
+    "effort": "low",
     "tag": "culture"
   },
   {
@@ -266,7 +254,7 @@
       "morning",
       "afternoon"
     ],
-    "effort": "medium",
+    "effort": "low",
     "tag": "kitchen"
   },
   {
@@ -289,7 +277,7 @@
       "afternoon",
       "evening"
     ],
-    "effort": "medium",
+    "effort": "low",
     "tag": "games"
   },
   {
@@ -337,7 +325,7 @@
     "timeOfDay": [
       "afternoon"
     ],
-    "effort": "low",
+    "effort": "medium",
     "tag": "culture",
     "link": "https://www.dulwichpicturegallery.org.uk/visit-us/"
   },
@@ -371,7 +359,7 @@
     "timeOfDay": [
       "afternoon"
     ],
-    "effort": "low",
+    "effort": "medium",
     "tag": "culture",
     "link": "https://www.horniman.ac.uk/"
   },
@@ -383,7 +371,7 @@
     "timeOfDay": [
       "afternoon"
     ],
-    "effort": "low",
+    "effort": "medium",
     "tag": "outdoors",
     "link": "https://www.horniman.ac.uk/"
   },
@@ -396,7 +384,7 @@
       "morning",
       "afternoon"
     ],
-    "effort": "low",
+    "effort": "medium",
     "tag": "adventure",
     "link": "https://thenudge.com/crystal-palace-park/"
   },
@@ -420,7 +408,7 @@
     "timeOfDay": [
       "morning"
     ],
-    "effort": "low",
+    "effort": "medium",
     "tag": "market",
     "link": "https://thenudge.com/crystal-palace-park/"
   },
@@ -432,7 +420,7 @@
     "timeOfDay": [
       "afternoon"
     ],
-    "effort": "low",
+    "effort": "medium",
     "tag": "market",
     "link": "https://www.timeout.com/london/things-to-do/west-norwood-feast-1"
   },
@@ -444,7 +432,7 @@
     "timeOfDay": [
       "afternoon"
     ],
-    "effort": "low",
+    "effort": "medium",
     "tag": "culture"
   },
   {
@@ -455,7 +443,7 @@
     "timeOfDay": [
       "evening"
     ],
-    "effort": "low",
+    "effort": "medium",
     "tag": "culture",
     "link": "https://www.visitlondon.com/things-to-do/london-areas/brixton/things-to-do-in-brixton-and-clapham"
   },
@@ -467,7 +455,7 @@
     "timeOfDay": [
       "evening"
     ],
-    "effort": "low",
+    "effort": "medium",
     "tag": "culture",
     "link": "https://www.picturehouses.com/cinema/Ritzy_Picturehouse"
   },
@@ -479,7 +467,7 @@
     "timeOfDay": [
       "evening"
     ],
-    "effort": "low",
+    "effort": "medium",
     "tag": "nightlife"
   },
   {
@@ -490,7 +478,7 @@
     "timeOfDay": [
       "evening"
     ],
-    "effort": "low",
+    "effort": "medium",
     "tag": "culture",
     "link": "https://rooftopfilmclub.com/"
   },
@@ -502,7 +490,7 @@
     "timeOfDay": [
       "evening"
     ],
-    "effort": "low",
+    "effort": "medium",
     "tag": "nightlife"
   },
   {
@@ -514,7 +502,7 @@
       "morning",
       "afternoon"
     ],
-    "effort": "low",
+    "effort": "medium",
     "tag": "outdoors",
     "link": "https://streathamcommon.org/"
   },
@@ -526,7 +514,7 @@
     "timeOfDay": [
       "evening"
     ],
-    "effort": "low",
+    "effort": "medium",
     "tag": "culture"
   },
   {
@@ -550,7 +538,7 @@
       "morning",
       "afternoon"
     ],
-    "effort": "low",
+    "effort": "medium",
     "tag": "market"
   },
   {
@@ -561,7 +549,7 @@
     "timeOfDay": [
       "afternoon"
     ],
-    "effort": "low",
+    "effort": "medium",
     "tag": "outdoors"
   },
   {
@@ -572,7 +560,7 @@
     "timeOfDay": [
       "morning"
     ],
-    "effort": "medium",
+    "effort": "high",
     "tag": "market"
   },
   {
@@ -583,7 +571,7 @@
     "timeOfDay": [
       "evening"
     ],
-    "effort": "low",
+    "effort": "high",
     "tag": "culture",
     "link": "https://www.barbican.org.uk/"
   },
@@ -596,7 +584,7 @@
       "morning",
       "afternoon"
     ],
-    "effort": "low",
+    "effort": "high",
     "tag": "market"
   },
   {
@@ -607,7 +595,7 @@
     "timeOfDay": [
       "afternoon"
     ],
-    "effort": "low",
+    "effort": "high",
     "tag": "culture"
   },
   {
@@ -618,7 +606,7 @@
     "timeOfDay": [
       "any"
     ],
-    "effort": "low",
+    "effort": "high",
     "tag": "outdoors"
   },
   {
@@ -629,7 +617,7 @@
     "timeOfDay": [
       "afternoon"
     ],
-    "effort": "low",
+    "effort": "high",
     "tag": "culture",
     "link": "https://www.tate.org.uk/visit/tate-modern"
   },
@@ -642,7 +630,7 @@
       "afternoon",
       "evening"
     ],
-    "effort": "low",
+    "effort": "high",
     "tag": "culture",
     "link": "https://www.coaldropsyard.com/"
   },
@@ -655,7 +643,7 @@
       "morning",
       "afternoon"
     ],
-    "effort": "medium",
+    "effort": "high",
     "tag": "outdoors"
   },
   {
@@ -666,7 +654,7 @@
     "timeOfDay": [
       "evening"
     ],
-    "effort": "low",
+    "effort": "high",
     "tag": "culture",
     "link": "https://lightroom.uk/"
   },
@@ -678,7 +666,7 @@
     "timeOfDay": [
       "afternoon"
     ],
-    "effort": "low",
+    "effort": "high",
     "tag": "culture",
     "link": "https://www.bl.uk/"
   },
@@ -690,7 +678,7 @@
     "timeOfDay": [
       "afternoon"
     ],
-    "effort": "low",
+    "effort": "high",
     "tag": "nightlife"
   },
   {
@@ -701,18 +689,6 @@
     "timeOfDay": [
       "morning",
       "afternoon"
-    ],
-    "effort": "low",
-    "tag": "outdoors"
-  },
-  {
-    "id": "hampstead-heath-parliament-hill",
-    "name": "Walk up Parliament Hill, Hampstead Heath",
-    "description": "A steep walk from Kentish Town up through the Heath for one of London's best skyline views, best at sunset.",
-    "location": "outdoor",
-    "timeOfDay": [
-      "afternoon",
-      "evening"
     ],
     "effort": "high",
     "tag": "outdoors"
@@ -725,7 +701,7 @@
     "timeOfDay": [
       "afternoon"
     ],
-    "effort": "low",
+    "effort": "high",
     "tag": "culture",
     "link": "https://www.freud.org.uk/"
   },
@@ -737,7 +713,7 @@
     "timeOfDay": [
       "morning"
     ],
-    "effort": "low",
+    "effort": "high",
     "tag": "market"
   },
   {
@@ -749,7 +725,7 @@
       "morning",
       "afternoon"
     ],
-    "effort": "medium",
+    "effort": "high",
     "tag": "adventure",
     "link": "https://www.stalbansmuseums.org.uk/"
   },
@@ -762,7 +738,7 @@
       "morning",
       "afternoon"
     ],
-    "effort": "low",
+    "effort": "high",
     "tag": "culture",
     "link": "https://www.stalbanscathedral.org/"
   },
@@ -774,7 +750,7 @@
     "timeOfDay": [
       "morning"
     ],
-    "effort": "low",
+    "effort": "high",
     "tag": "market"
   },
   {
@@ -785,7 +761,32 @@
     "timeOfDay": [
       "evening"
     ],
-    "effort": "low",
+    "effort": "high",
     "tag": "nightlife"
+  },
+  {
+    "id": "parkland-walk",
+    "name": "Walk the Parkland Walk",
+    "description": "A 4.5-mile nature reserve along a disused Victorian railway between Finsbury Park and Alexandra Palace, with old platforms and bridges still visible along the way.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "morning",
+      "afternoon"
+    ],
+    "effort": "high",
+    "tag": "outdoors",
+    "link": "https://en.wikipedia.org/wiki/Parkland_Walk"
+  },
+  {
+    "id": "brighton-beach-walk",
+    "name": "Day trip to walk Brighton beach",
+    "description": "About an hour direct by train. Walk the pebble beach past the Palace Pier, or head quieter and west toward Hove for a calmer stretch and good cafes.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "morning",
+      "afternoon"
+    ],
+    "effort": "high",
+    "tag": "outdoors"
   }
 ]

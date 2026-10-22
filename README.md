@@ -20,10 +20,17 @@ deployed straight to GitHub Pages.
 Each entry needs: `id` (unique slug), `name`, `description`, `location`
 (`home` / `indoor` / `outdoor` / `any`), `timeOfDay` (array of `morning` /
 `afternoon` / `evening`, or `["any"]` — only checked on weekends, weekdays
-assume an evening slot), `effort` (`low` / `medium` / `high`), and `tag`
-(short sticker label shown on the result card, e.g. `"cozy"`). `link` is
-optional — a URL shown as "more info →" on the result card, for activities
-tied to a real place or event.
+assume an evening slot), `effort`, and `tag` (short sticker label shown on
+the result card, e.g. `"cozy"`). `link` is optional — a URL shown as
+"more info →" on the result card, for activities tied to a real place or
+event.
+
+`effort` is about **distance from home, not physical exertion** —
+`low` = doorstep/at home, `medium` = a local outing nearby, `high` = a
+proper trip further out (a different part of London, or a day trip like
+Brighton). We're not an "exercise together" household beyond a long walk,
+so don't add dedicated workouts (cycling, running, swimming laps, climbing,
+skating) regardless of effort tier.
 
 ## Local preview
 

@@ -203,13 +203,15 @@ function renderResult(activity) {
     label.textContent = "pick one:";
     choicesEl.appendChild(label);
     choices.forEach(({ name, link }) => {
-      const a = document.createElement("a");
-      a.className = "chip choice-chip";
-      a.href = link;
-      a.target = "_blank";
-      a.rel = "noopener";
-      a.textContent = name;
-      choicesEl.appendChild(a);
+      const el = document.createElement(link ? "a" : "span");
+      el.className = "chip choice-chip";
+      if (link) {
+        el.href = link;
+        el.target = "_blank";
+        el.rel = "noopener";
+      }
+      el.textContent = name;
+      choicesEl.appendChild(el);
     });
     choicesEl.hidden = false;
   });

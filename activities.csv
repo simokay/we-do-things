@@ -52,4 +52,5 @@ st-albans-market,"Browse St Albans market, named Britain's best large outdoor ma
 ye-olde-fighting-cocks,"Pint at Ye Olde Fighting Cocks, reputedly one of England's oldest pubs.",indoor,evening,high,nightlife,
 parkland-walk,"Walk the Parkland Walk, a disused railway from Finsbury Park to Alexandra Palace.",outdoor,morning;afternoon,high,outdoors,https://en.wikipedia.org/wiki/Parkland_Walk
 brighton-beach-walk,"Day trip to walk Brighton beach — about an hour direct, pebbles past the pier.",outdoor,morning;afternoon,high,outdoors,
-museum-or-gallery,Visit a museum or gallery — pick one from a shortlist of London favourites.,indoor,afternoon,medium,culture,
+visit-museum,Visit a museum — pick one from a shortlist of London favourites.,indoor,afternoon,medium,culture,
+visit-gallery,Visit an art gallery — pick one from a shortlist of London favourites.,indoor,afternoon,medium,culture,

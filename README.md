@@ -17,6 +17,9 @@ deployed straight to GitHub Pages.
 - `activities.csv` — the list of activities, parsed in the browser at load
   time. No build step: edit it, commit, and the live site picks it up. It
   lives at the repo root (not buried in a folder) so it's easy to find.
+- `rejected.csv` — activities removed from `activities.csv`, kept here so
+  we don't re-suggest or re-debate the same idea later. Same columns as
+  `activities.csv`. Not read by the app.
 
 ### Editing the activity list
 
@@ -26,7 +29,7 @@ tweak rows without touching any code. Each row is one activity:
 
 | column | meaning |
 |---|---|
-| `id` | unique slug, e.g. `cook-new-recipe` (lowercase, hyphens, no spaces) |
+| `id` | unique slug, e.g. `jigsaw-puzzle` (lowercase, hyphens, no spaces) |
 | `activity` | one short sentence shown on the result card — what it is and the one detail that makes it specific |
 | `location` | `home`, `indoor`, `outdoor`, or `any` |
 | `timeOfDay` | `morning`, `afternoon`, `evening`, or `any` — for more than one, separate with a semicolon, e.g. `morning;afternoon`. Only checked on weekends; weekdays assume an evening slot. |

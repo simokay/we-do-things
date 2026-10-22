@@ -647,5 +647,242 @@
     ],
     "effort": "low",
     "tag": "outdoors"
+  },
+  {
+    "id": "smithfield-market-dawn",
+    "name": "Smithfield Market at dawn",
+    "description": "An 800-year-old meat market near Farringdon \u2014 early stallholders pack up around 7am, so go early for the atmosphere.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "morning"
+    ],
+    "effort": "medium",
+    "tag": "market"
+  },
+  {
+    "id": "barbican-centre",
+    "name": "Catch a show at the Barbican Centre",
+    "description": "Theatre, classical concerts and film screenings near Farringdon, plus a conservatory with 1,500+ tropical plants.",
+    "location": "indoor",
+    "timeOfDay": [
+      "evening"
+    ],
+    "effort": "low",
+    "tag": "culture",
+    "link": "https://www.barbican.org.uk/"
+  },
+  {
+    "id": "leather-lane-market",
+    "name": "Browse Leather Lane Market",
+    "description": "A lively street market for food, coffee and handmade goods just by Farringdon station.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "morning",
+      "afternoon"
+    ],
+    "effort": "low",
+    "tag": "market"
+  },
+  {
+    "id": "postmans-park",
+    "name": "Find the memorial wall at Postman's Park",
+    "description": "A small City park with a covered wall of 54 Victorian plaques honouring ordinary people who died saving others \u2014 a quiet, odd detour near Farringdon.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "afternoon"
+    ],
+    "effort": "low",
+    "tag": "culture"
+  },
+  {
+    "id": "millennium-bridge-walk",
+    "name": "Walk the Millennium Bridge",
+    "description": "The 'Wobbly Bridge' between St Paul's and Tate Modern, with one of London's best skyline views from the middle.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "any"
+    ],
+    "effort": "low",
+    "tag": "outdoors"
+  },
+  {
+    "id": "tate-modern",
+    "name": "Explore Tate Modern",
+    "description": "Free entry, a vast Turbine Hall for rotating installations, and a top-floor terrace view over the Thames \u2014 a short walk from Blackfriars.",
+    "location": "indoor",
+    "timeOfDay": [
+      "afternoon"
+    ],
+    "effort": "low",
+    "tag": "culture",
+    "link": "https://www.tate.org.uk/visit/tate-modern"
+  },
+  {
+    "id": "st-pauls-golden-gallery",
+    "name": "Climb to St Paul's Golden Gallery",
+    "description": "528 steps up for a sweeping view across the Thames, the Shard and beyond \u2014 book ahead.",
+    "location": "indoor",
+    "timeOfDay": [
+      "morning",
+      "afternoon"
+    ],
+    "effort": "high",
+    "tag": "adventure",
+    "link": "https://www.stpauls.co.uk/"
+  },
+  {
+    "id": "coal-drops-yard",
+    "name": "Shop and eat at Coal Drops Yard",
+    "description": "A converted Victorian coal depot turned shopping and dining destination next to Granary Square, King's Cross.",
+    "location": "indoor",
+    "timeOfDay": [
+      "afternoon",
+      "evening"
+    ],
+    "effort": "low",
+    "tag": "culture",
+    "link": "https://www.coaldropsyard.com/"
+  },
+  {
+    "id": "granary-square-canal-walk",
+    "name": "Walk the canal from Granary Square",
+    "description": "Start at Granary Square's fountains and follow the Regent's Canal towpath toward Camden, Primrose Hill or Little Venice.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "morning",
+      "afternoon"
+    ],
+    "effort": "medium",
+    "tag": "outdoors"
+  },
+  {
+    "id": "lightroom-show",
+    "name": "Catch an immersive show at Lightroom",
+    "description": "A four-storey digital art space on Lewis Cubitt Square, King's Cross, with large-scale immersive shows that change periodically \u2014 check what's currently on.",
+    "location": "indoor",
+    "timeOfDay": [
+      "evening"
+    ],
+    "effort": "low",
+    "tag": "culture",
+    "link": "https://lightroom.uk/"
+  },
+  {
+    "id": "british-library-exhibition",
+    "name": "See a free exhibition at the British Library",
+    "description": "Treasures like the Magna Carta and Beatles lyrics sit in the free permanent gallery, steps from St Pancras.",
+    "location": "indoor",
+    "timeOfDay": [
+      "afternoon"
+    ],
+    "effort": "low",
+    "tag": "culture",
+    "link": "https://www.bl.uk/"
+  },
+  {
+    "id": "camden-town-brewery-tour",
+    "name": "Tour Camden Town Brewery",
+    "description": "Tours and tastings near Kentish Town West \u2014 good for a Saturday afternoon detour.",
+    "location": "indoor",
+    "timeOfDay": [
+      "afternoon"
+    ],
+    "effort": "low",
+    "tag": "nightlife"
+  },
+  {
+    "id": "kentish-town-city-farm",
+    "name": "Visit Kentish Town City Farm",
+    "description": "A small city farm in the middle of Kentish Town, with animals, a cafe and a genuinely surprising amount of quiet.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "morning",
+      "afternoon"
+    ],
+    "effort": "low",
+    "tag": "outdoors"
+  },
+  {
+    "id": "hampstead-heath-parliament-hill",
+    "name": "Walk up Parliament Hill, Hampstead Heath",
+    "description": "A steep walk from Kentish Town up through the Heath for one of London's best skyline views, best at sunset.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "afternoon",
+      "evening"
+    ],
+    "effort": "high",
+    "tag": "outdoors"
+  },
+  {
+    "id": "freud-museum",
+    "name": "Visit the Freud Museum",
+    "description": "Sigmund Freud's final home in West Hampstead, preserved much as he left it, including the original psychoanalysis couch.",
+    "location": "indoor",
+    "timeOfDay": [
+      "afternoon"
+    ],
+    "effort": "low",
+    "tag": "culture",
+    "link": "https://www.freud.org.uk/"
+  },
+  {
+    "id": "west-hampstead-farmers-market",
+    "name": "West Hampstead farmers' market",
+    "description": "A Saturday market right outside West Hampstead Thameslink station \u2014 good for breakfast before a wander down West End Lane.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "morning"
+    ],
+    "effort": "low",
+    "tag": "market"
+  },
+  {
+    "id": "st-albans-roman-ruins",
+    "name": "Explore Verulamium Park and Roman ruins",
+    "description": "Roman walls, mosaics and Britain's only visible Roman theatre, set in parkland a 20-minute direct train from Herne Hill.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "morning",
+      "afternoon"
+    ],
+    "effort": "medium",
+    "tag": "adventure",
+    "link": "https://www.stalbansmuseums.org.uk/"
+  },
+  {
+    "id": "st-albans-cathedral",
+    "name": "Visit St Albans Cathedral",
+    "description": "Free entry, 13th-century wall paintings and England's only surviving medieval town belfry clock tower next door.",
+    "location": "indoor",
+    "timeOfDay": [
+      "morning",
+      "afternoon"
+    ],
+    "effort": "low",
+    "tag": "culture",
+    "link": "https://www.stalbanscathedral.org/"
+  },
+  {
+    "id": "st-albans-market",
+    "name": "Browse St Albans market",
+    "description": "A large outdoor market through the historic city centre, named Britain's best large outdoor market in 2024.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "morning"
+    ],
+    "effort": "low",
+    "tag": "market"
+  },
+  {
+    "id": "ye-olde-fighting-cocks",
+    "name": "Pint at Ye Olde Fighting Cocks",
+    "description": "Reputedly one of England's oldest pubs, tucked by the river in St Albans \u2014 a good end to a day trip.",
+    "location": "indoor",
+    "timeOfDay": [
+      "evening"
+    ],
+    "effort": "low",
+    "tag": "nightlife"
   }
 ]

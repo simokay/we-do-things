@@ -177,27 +177,9 @@ function renderTopbar() {
 
 // ---------- result ----------
 
-const locationLabels = { home: "🏡 home", indoor: "🏠 indoors", outdoor: "🌳 outdoors", any: "✨ either" };
-const effortLabels = { low: "🏠 doorstep", medium: "🚌 in town", high: "🚆 proper trip" };
-const periodLabels = { weekday: "🗓️ weekday evening", weekend: "🎉 weekend" };
-
 function renderResult(activity) {
   document.getElementById("result-activity").textContent = activity.activity;
   document.getElementById("result-tag").textContent = activity.tag || "idea";
-
-  const meta = document.getElementById("result-meta");
-  meta.innerHTML = "";
-  const metaChips = [
-    locationLabels[activity.location] || activity.location,
-    effortLabels[activity.effort] || activity.effort,
-    periodLabels[state.period] || "",
-  ].filter(Boolean);
-  metaChips.forEach((label) => {
-    const span = document.createElement("span");
-    span.className = "chip";
-    span.textContent = label;
-    meta.appendChild(span);
-  });
 
   const linkEl = document.getElementById("result-link");
   if (activity.link) {

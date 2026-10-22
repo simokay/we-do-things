@@ -28,6 +28,7 @@ const STEPS = [
       { value: "morning", label: "🌅 morning" },
       { value: "afternoon", label: "☀️ afternoon" },
       { value: "evening", label: "🌙 evening" },
+      { value: "all-day", label: "🗓️ all day" },
       { value: "any", label: "✨ anytime", gold: true },
     ],
   },

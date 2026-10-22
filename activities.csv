@@ -12,7 +12,7 @@ picturehouse-film-night,Catch a film at a south London picture house.,indoor,eve
 barbican-centre,"Catch a show at the Barbican — theatre, concerts, and a tropical conservatory.",indoor,evening,high,culture,https://www.barbican.org.uk/
 visit-museum,Visit a museum — pick one from a shortlist of London favourites.,indoor,afternoon,medium,culture,
 visit-gallery,Visit an art gallery — pick one from a shortlist of London favourites.,indoor,afternoon,medium,culture,
-visit-garden,Visit a fancy or large garden — pick one from a shortlist of great days out.,outdoor,morning;afternoon,high,outdoors,
-day-trip,Take a day trip somewhere new — pick a town under two hours away by direct train.,any,morning;afternoon,high,adventure,
-london-nature-walk,"Walk a London nature trail — pick one from a shortlist of green, wild routes.",outdoor,morning;afternoon,high,outdoors,
+visit-garden,Visit a fancy or large garden — pick one from a shortlist of great days out.,outdoor,morning;afternoon;all-day,high,outdoors,
+day-trip,Take a day trip somewhere new — pick a town under two hours away by direct train.,any,morning;afternoon;all-day,high,adventure,
+london-nature-walk,"Walk a London nature trail — pick one from a shortlist of green, wild routes.",outdoor,morning;afternoon;all-day,high,outdoors,
 go-to-a-familiar-area,Go spend time in a familiar area — pick one from a shortlist of favourites.,any,afternoon;evening,medium,outdoors,

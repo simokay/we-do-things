@@ -338,5 +338,314 @@
     ],
     "effort": "medium",
     "tag": "games"
+  },
+  {
+    "id": "lido-swim-brockwell",
+    "name": "Swim at Brockwell Lido",
+    "description": "A 50m outdoor pool framed by Grade II-listed art deco buildings, open year-round. Book a swim session ahead through Active Lambeth.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "morning",
+      "afternoon"
+    ],
+    "effort": "high",
+    "tag": "lido",
+    "link": "https://active.lambeth.gov.uk/centres/brockwell-lido/"
+  },
+  {
+    "id": "brockwell-walled-garden",
+    "name": "Wander the walled garden in Brockwell Park",
+    "description": "An Old English flower garden with roses, exotic plants and ornamental ponds, a five-minute walk from Herne Hill station.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "morning",
+      "afternoon"
+    ],
+    "effort": "low",
+    "tag": "park",
+    "link": "https://www.lambeth.gov.uk/parks/brockwell-park"
+  },
+  {
+    "id": "brockwell-greenhouses",
+    "name": "Visit the Brockwell Park Community Greenhouses",
+    "description": "A volunteer-run walled garden, orchard and pair of greenhouses sharing a wall with the Walled Garden. Open Thursday to Sunday.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "afternoon"
+    ],
+    "effort": "low",
+    "tag": "cozy",
+    "link": "https://www.brockwellgreenhouses.org.uk/"
+  },
+  {
+    "id": "herne-hill-market",
+    "name": "Browse Herne Hill Market",
+    "description": "A Sunday market along Railton Road right by the station, with 50+ stalls of local produce, crafts and street food.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "morning"
+    ],
+    "effort": "low",
+    "tag": "market",
+    "link": "https://www.timeout.com/london/shopping/herne-hill-market-1"
+  },
+  {
+    "id": "velodrome-track-taster",
+    "name": "Track taster session at Herne Hill Velodrome",
+    "description": "A cycling track used in the 1948 Olympics, right next to Brockwell Park. Adult taster sessions run Saturday afternoons \u2014 book ahead.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "afternoon"
+    ],
+    "effort": "high",
+    "tag": "adventure",
+    "link": "https://hernehillvelodrome.com/"
+  },
+  {
+    "id": "dulwich-picture-gallery",
+    "name": "Visit Dulwich Picture Gallery",
+    "description": "England's first public art gallery, known for its Old Masters and striking Soane-designed building. Open Tuesday to Sunday, 10am-5pm.",
+    "location": "indoor",
+    "timeOfDay": [
+      "afternoon"
+    ],
+    "effort": "low",
+    "tag": "culture",
+    "link": "https://www.dulwichpicturegallery.org.uk/visit-us/"
+  },
+  {
+    "id": "dulwich-park-boating",
+    "name": "Hire a boat on Dulwich Park's lake",
+    "description": "A boating lake plus a big network of paths and hidden ponds to walk, with a cafe for afterwards and usually a lot of dogs.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "afternoon"
+    ],
+    "effort": "medium",
+    "tag": "outdoors"
+  },
+  {
+    "id": "dulwich-street-art",
+    "name": "Follow the Dulwich Street Art Walk",
+    "description": "A self-guided trail of murals around Dulwich Village, including the mosaic-covered House of Dreams.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "afternoon"
+    ],
+    "effort": "medium",
+    "tag": "culture"
+  },
+  {
+    "id": "horniman-museum",
+    "name": "Explore the Horniman Museum",
+    "description": "Free galleries covering anthropology, natural history and musical instruments, plus an aquarium and a butterfly house, in Forest Hill.",
+    "location": "indoor",
+    "timeOfDay": [
+      "afternoon"
+    ],
+    "effort": "low",
+    "tag": "culture",
+    "link": "https://www.horniman.ac.uk/"
+  },
+  {
+    "id": "horniman-gardens",
+    "name": "Picnic in the Horniman's gardens",
+    "description": "Sixteen acres with some of the best skyline views in south London, a bandstand and a small animal enclosure. Free to enter.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "afternoon"
+    ],
+    "effort": "low",
+    "tag": "outdoors",
+    "link": "https://www.horniman.ac.uk/"
+  },
+  {
+    "id": "crystal-palace-dinosaurs",
+    "name": "Walk the dinosaur trail at Crystal Palace Park",
+    "description": "Recently restored Victorian concrete dinosaur sculptures scattered around the park's lake \u2014 free to visit any time.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "morning",
+      "afternoon"
+    ],
+    "effort": "low",
+    "tag": "adventure",
+    "link": "https://thenudge.com/crystal-palace-park/"
+  },
+  {
+    "id": "crystal-palace-maze",
+    "name": "Get lost in the Crystal Palace Park maze",
+    "description": "A 160-foot hedge maze, with a skatepark and local history museum nearby if you want to make a day of it.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "afternoon"
+    ],
+    "effort": "medium",
+    "tag": "adventure",
+    "link": "https://thenudge.com/crystal-palace-park/"
+  },
+  {
+    "id": "crystal-palace-flea",
+    "name": "Crystal Palace Flea vintage market",
+    "description": "A vintage market in the park's Bowl area with 30+ traders selling homeware, designer clothing and retro furniture.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "morning"
+    ],
+    "effort": "low",
+    "tag": "market",
+    "link": "https://thenudge.com/crystal-palace-park/"
+  },
+  {
+    "id": "west-norwood-feast",
+    "name": "West Norwood Feast street food market",
+    "description": "Over 100 stalls across four sites on the first Sunday of the month (April-December) \u2014 food, drink and crafts.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "afternoon"
+    ],
+    "effort": "low",
+    "tag": "market",
+    "link": "https://www.timeout.com/london/things-to-do/west-norwood-feast-1"
+  },
+  {
+    "id": "west-norwood-cemetery",
+    "name": "Wander West Norwood Cemetery",
+    "description": "One of London's 'Magnificent Seven' Victorian cemeteries, with grand tombs and quiet, overgrown paths \u2014 an odd, peaceful walk.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "afternoon"
+    ],
+    "effort": "low",
+    "tag": "culture"
+  },
+  {
+    "id": "brixton-village-food",
+    "name": "Food crawl through Brixton Village and Market Row",
+    "description": "Covered arcades packed with independent restaurants, bars and shops \u2014 pick two or three small plates each and compare notes.",
+    "location": "indoor",
+    "timeOfDay": [
+      "evening"
+    ],
+    "effort": "low",
+    "tag": "culture",
+    "link": "https://www.visitlondon.com/things-to-do/london-areas/brixton/things-to-do-in-brixton-and-clapham"
+  },
+  {
+    "id": "ritzy-film-night",
+    "name": "Catch a film at the Ritzy",
+    "description": "One of London's oldest picture houses, open since 1911, showing independent and mainstream films on Brixton Oval.",
+    "location": "indoor",
+    "timeOfDay": [
+      "evening"
+    ],
+    "effort": "low",
+    "tag": "culture",
+    "link": "https://www.picturehouses.com/cinema/Ritzy_Picturehouse"
+  },
+  {
+    "id": "hootananny-garden",
+    "name": "Street food and live music at Hootananny",
+    "description": "A Victorian pub in Brixton with a garden of street-food stalls (jerk chicken, Mexican, wood-fired pizza) and regular live music nights.",
+    "location": "any",
+    "timeOfDay": [
+      "evening"
+    ],
+    "effort": "low",
+    "tag": "nightlife"
+  },
+  {
+    "id": "rooftop-cinema-bussey",
+    "name": "Rooftop Cinema Club at the Bussey Building",
+    "description": "Summer al fresco film screenings on the Bussey Building roof in Peckham, with food and drink delivered to your seat.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "evening"
+    ],
+    "effort": "low",
+    "tag": "culture",
+    "link": "https://rooftopfilmclub.com/"
+  },
+  {
+    "id": "bussey-rooftop-bar",
+    "name": "Cocktails at the Bussey rooftop bar",
+    "description": "A multilevel bar with 360-degree views over Peckham, plus pizza \u2014 good for a date-night drink with a view.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "evening"
+    ],
+    "effort": "low",
+    "tag": "nightlife"
+  },
+  {
+    "id": "streatham-ice-skating",
+    "name": "Ice skating at Streatham Ice and Leisure",
+    "description": "One of London's only permanent Olympic-sized rinks, with public skating sessions through the week.",
+    "location": "indoor",
+    "timeOfDay": [
+      "afternoon",
+      "evening"
+    ],
+    "effort": "high",
+    "tag": "adventure"
+  },
+  {
+    "id": "streatham-common-rookery",
+    "name": "Walk Streatham Common and the Rookery",
+    "description": "Open lawns and a paddling pool on the Common, with a walled Edwardian garden and waterfall tucked into the Rookery at the top.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "morning",
+      "afternoon"
+    ],
+    "effort": "low",
+    "tag": "outdoors",
+    "link": "https://streathamcommon.org/"
+  },
+  {
+    "id": "peckham-levels",
+    "name": "Explore Peckham Levels",
+    "description": "A former multi-storey car park turned food hall, studios and bars across several floors \u2014 an easy wander with food at the end.",
+    "location": "indoor",
+    "timeOfDay": [
+      "evening"
+    ],
+    "effort": "low",
+    "tag": "culture"
+  },
+  {
+    "id": "sydenham-hill-wood",
+    "name": "Walk Sydenham Hill Wood",
+    "description": "The largest remaining fragment of the old Great North Wood, with a Victorian ruin folly hidden among the trees near the Horniman.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "morning",
+      "afternoon"
+    ],
+    "effort": "medium",
+    "tag": "outdoors"
+  },
+  {
+    "id": "electric-avenue-market",
+    "name": "Browse Electric Avenue market",
+    "description": "Brixton's historic market street for bargains, fabric, fruit and veg, and street food stalls.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "morning",
+      "afternoon"
+    ],
+    "effort": "low",
+    "tag": "market"
+  },
+  {
+    "id": "dacres-wood-reserve",
+    "name": "Explore Dacres Wood Nature Reserve",
+    "description": "A small, little-known nature reserve tucked near the Horniman \u2014 good for a quiet detour after the museum.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "afternoon"
+    ],
+    "effort": "low",
+    "tag": "outdoors"
   }
 ]

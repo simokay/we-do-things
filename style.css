@@ -297,6 +297,20 @@ p {
   color: var(--c-ink);
 }
 
+.result-link {
+  display: inline-block;
+  margin-top: 16px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--c-white);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.result-link:hover {
+  text-decoration-thickness: 2px;
+}
+
 .sticker {
   position: absolute;
   top: -16px;

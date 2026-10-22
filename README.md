@@ -18,10 +18,12 @@ deployed straight to GitHub Pages.
   to add, remove, or tweak ideas; the app reads it at runtime.
 
 Each entry needs: `id` (unique slug), `name`, `description`, `location`
-(`indoor` / `outdoor` / `any`), `timeOfDay` (array of `morning` /
+(`home` / `indoor` / `outdoor` / `any`), `timeOfDay` (array of `morning` /
 `afternoon` / `evening`, or `["any"]` — only checked on weekends, weekdays
 assume an evening slot), `effort` (`low` / `medium` / `high`), and `tag`
-(short sticker label shown on the result card, e.g. `"cozy"`).
+(short sticker label shown on the result card, e.g. `"cozy"`). `link` is
+optional — a URL shown as "more info →" on the result card, for activities
+tied to a real place or event.
 
 ## Local preview
 

@@ -200,6 +200,14 @@ function renderResult(activity) {
     meta.appendChild(span);
   });
 
+  const linkEl = document.getElementById("result-link");
+  if (activity.link) {
+    linkEl.href = activity.link;
+    linkEl.hidden = false;
+  } else {
+    linkEl.hidden = true;
+  }
+
   resultWrap.hidden = false;
   emptyState.hidden = true;
   resultWrap.querySelector(".map-poster").style.animation = "none";

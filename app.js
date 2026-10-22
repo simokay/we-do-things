@@ -295,7 +295,7 @@ function rowsToActivities(rows) {
 }
 
 async function loadActivities() {
-  const res = await fetch("data/activities.csv");
+  const res = await fetch("activities.csv");
   const text = await res.text();
   activities = rowsToActivities(parseCSV(text));
   renderWizardStep();

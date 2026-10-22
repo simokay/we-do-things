@@ -14,12 +14,13 @@ A tiny static site, no build step, no framework — plain HTML/CSS/JS,
 deployed straight to GitHub Pages.
 
 - `index.html`, `style.css`, `app.js` — the whole app.
-- `data/activities.csv` — the list of activities, parsed in the browser at
-  load time. No build step: edit it, commit, and the live site picks it up.
+- `activities.csv` — the list of activities, parsed in the browser at load
+  time. No build step: edit it, commit, and the live site picks it up. It
+  lives at the repo root (not buried in a folder) so it's easy to find.
 
 ### Editing the activity list
 
-Open `data/activities.csv` on GitHub and click the pencil (edit) icon — GitHub
+Open `activities.csv` on GitHub and click the pencil (edit) icon — GitHub
 shows CSV files as an editable spreadsheet grid, so you can add, remove or
 tweak rows without touching any code. Each row is one activity:
 

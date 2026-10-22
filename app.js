@@ -178,6 +178,50 @@ function renderTopbar() {
 // ---------- result ----------
 
 let resultToken = 0;
+let currentChoices = [];
+let currentChoiceIndex = -1;
+
+function pickChoiceIndex(choices, excludeIndex) {
+  if (choices.length === 1) return 0;
+  let index;
+  do {
+    index = Math.floor(Math.random() * choices.length);
+  } while (index === excludeIndex);
+  return index;
+}
+
+function renderChoicePick() {
+  const choicesEl = document.getElementById("result-choices");
+  choicesEl.innerHTML = "";
+
+  const label = document.createElement("span");
+  label.className = "choices-label";
+  label.textContent = "how about:";
+  choicesEl.appendChild(label);
+
+  const { name, link } = currentChoices[currentChoiceIndex];
+  const el = document.createElement(link ? "a" : "span");
+  el.className = "chip choice-chip";
+  if (link) {
+    el.href = link;
+    el.target = "_blank";
+    el.rel = "noopener";
+  }
+  el.textContent = name;
+  choicesEl.appendChild(el);
+
+  if (currentChoices.length > 1) {
+    const shuffleBtn = document.createElement("button");
+    shuffleBtn.type = "button";
+    shuffleBtn.className = "chip choice-shuffle";
+    shuffleBtn.textContent = "🔀 another";
+    shuffleBtn.addEventListener("click", () => {
+      currentChoiceIndex = pickChoiceIndex(currentChoices, currentChoiceIndex);
+      renderChoicePick();
+    });
+    choicesEl.appendChild(shuffleBtn);
+  }
+}
 
 function renderResult(activity) {
   const token = ++resultToken;
@@ -196,23 +240,13 @@ function renderResult(activity) {
   const choicesEl = document.getElementById("result-choices");
   choicesEl.innerHTML = "";
   choicesEl.hidden = true;
+  currentChoices = [];
+  currentChoiceIndex = -1;
   getChoicesFor(activity.id).then((choices) => {
     if (token !== resultToken || !choices.length) return;
-    const label = document.createElement("span");
-    label.className = "choices-label";
-    label.textContent = "pick one:";
-    choicesEl.appendChild(label);
-    choices.forEach(({ name, link }) => {
-      const el = document.createElement(link ? "a" : "span");
-      el.className = "chip choice-chip";
-      if (link) {
-        el.href = link;
-        el.target = "_blank";
-        el.rel = "noopener";
-      }
-      el.textContent = name;
-      choicesEl.appendChild(el);
-    });
+    currentChoices = choices;
+    currentChoiceIndex = pickChoiceIndex(choices, -1);
+    renderChoicePick();
     choicesEl.hidden = false;
   });
 

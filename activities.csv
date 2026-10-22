@@ -12,10 +12,8 @@ karaoke-at-home,"Karaoke at home — find a playlist, take turns, no judgment.",
 bake-together,"Bake something from scratch together — bread, a cake, fiddly steps.",home,morning;afternoon,low,kitchen,
 mini-golf-or-arcade,"Mini golf or an arcade — low-stakes, loser buys next round.",indoor,afternoon;evening,low,games,
 brockwell-walled-garden,"Wander Brockwell Park's walled garden — roses and ponds, five minutes from the station.",outdoor,morning;afternoon,low,park,https://www.lambeth.gov.uk/parks/brockwell-park
-dulwich-picture-gallery,"Visit Dulwich Picture Gallery, England's first public art gallery — Tue-Sun.",indoor,afternoon,medium,culture,https://www.dulwichpicturegallery.org.uk/visit-us/
 dulwich-park-boating,"Hire a boat on Dulwich Park's lake, then wander its paths and hidden ponds.",outdoor,afternoon,medium,outdoors,
 dulwich-street-art,"Follow the Dulwich Street Art Walk, including the mosaic-covered House of Dreams.",outdoor,afternoon,medium,culture,
-horniman-museum,"Explore the free Horniman Museum — anthropology, aquarium, butterfly house.",indoor,afternoon,medium,culture,https://www.horniman.ac.uk/
 horniman-gardens,"Picnic in the Horniman's gardens, sixteen acres with some of south London's best views.",outdoor,afternoon,medium,outdoors,https://www.horniman.ac.uk/
 crystal-palace-dinosaurs,"Walk the restored Victorian dinosaur trail at Crystal Palace Park, free anytime.",outdoor,morning;afternoon,medium,adventure,https://thenudge.com/crystal-palace-park/
 crystal-palace-maze,"Get lost in the Crystal Palace Park hedge maze, with a skatepark nearby.",outdoor,afternoon,medium,adventure,https://thenudge.com/crystal-palace-park/
@@ -44,7 +42,6 @@ lightroom-show,"Catch an immersive show at Lightroom, King's Cross — check wha
 british-library-exhibition,"See a free exhibition at the British Library, steps from St Pancras.",indoor,afternoon,high,culture,https://www.bl.uk/
 camden-town-brewery-tour,Tour Camden Town Brewery near Kentish Town West — tours and tastings.,indoor,afternoon,high,nightlife,
 kentish-town-city-farm,"Visit Kentish Town City Farm, a small, surprisingly quiet city farm.",outdoor,morning;afternoon,high,outdoors,
-freud-museum,"Visit the Freud Museum, Sigmund Freud's preserved final home in West Hampstead.",indoor,afternoon,high,culture,https://www.freud.org.uk/
 west-hampstead-farmers-market,"West Hampstead's Saturday farmers' market, by the Thameslink station.",outdoor,morning,high,market,
 st-albans-roman-ruins,"Explore Verulamium Park's Roman ruins, 20 minutes direct from Herne Hill.",outdoor,morning;afternoon,high,adventure,https://www.stalbansmuseums.org.uk/
 st-albans-cathedral,"Visit St Albans Cathedral, free entry, with 13th-century wall paintings.",indoor,morning;afternoon,high,culture,https://www.stalbanscathedral.org/

@@ -18,6 +18,12 @@ deployed straight to GitHub Pages.
   time. No build step: edit it, commit, and the live site picks it up. It
   lives at the repo root (not buried in a folder) so it's easy to find.
 
+`index.html` loads `style.css` and `app.js` with a `?v=N` query string.
+Bump that number whenever you change either file's structure (new/renamed
+element IDs, etc.) — otherwise a visitor's browser can end up with a stale
+cached copy of one file paired with a fresh copy of the other, which breaks
+the page in confusing ways.
+
 ### Editing the activity list
 
 Open `activities.csv` on GitHub and click the pencil (edit) icon — GitHub

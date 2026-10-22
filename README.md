@@ -20,6 +20,11 @@ deployed straight to GitHub Pages.
 - `rejected.csv` — activities removed from `activities.csv`, kept here so
   we don't re-suggest or re-debate the same idea later. Same columns as
   `activities.csv`. Not read by the app.
+- `choices.csv` — optional named sub-options for a specific activity, shown
+  as "pick one:" links on its result card (e.g. a shortlist of films for
+  `home-cinema-night`). Columns: `activity_id` (matches an `id` in
+  `activities.csv`), `name`, `link`. An activity with no rows here just
+  doesn't show a choices row — most won't need one.
 
 ### Editing the activity list
 

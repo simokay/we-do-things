@@ -290,6 +290,25 @@ p {
 }
 
 
+.result-choices {
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.choices-label {
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--c-white);
+  font-size: 0.85rem;
+  margin-right: 2px;
+}
+
+.choice-chip {
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--c-ink);
+}
+
 .result-link {
   display: inline-block;
   margin-top: 16px;

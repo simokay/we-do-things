@@ -52,6 +52,7 @@ const state = {
 };
 
 let activities = [];
+let choicesByActivity = {};
 let lastId = null;
 let wizardIndex = 0;
 
@@ -189,6 +190,28 @@ function renderResult(activity) {
     linkEl.hidden = true;
   }
 
+  const choicesEl = document.getElementById("result-choices");
+  const choices = choicesByActivity[activity.id];
+  choicesEl.innerHTML = "";
+  if (choices && choices.length) {
+    const label = document.createElement("span");
+    label.className = "choices-label";
+    label.textContent = "pick one:";
+    choicesEl.appendChild(label);
+    choices.forEach(({ name, link }) => {
+      const a = document.createElement("a");
+      a.className = "chip choice-chip";
+      a.href = link;
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.textContent = name;
+      choicesEl.appendChild(a);
+    });
+    choicesEl.hidden = false;
+  } else {
+    choicesEl.hidden = true;
+  }
+
   resultWrap.hidden = false;
   emptyState.hidden = true;
   resultWrap.querySelector(".map-poster").style.animation = "none";
@@ -260,13 +283,19 @@ function parseCSV(text) {
   return rows;
 }
 
-function rowsToActivities(rows) {
+function rowsToObjects(rows) {
   const [header, ...dataRows] = rows;
   return dataRows.map((row) => {
-    const activity = {};
+    const obj = {};
     header.forEach((col, i) => {
-      activity[col] = (row[i] || "").trim();
+      obj[col] = (row[i] || "").trim();
     });
+    return obj;
+  });
+}
+
+function rowsToActivities(rows) {
+  return rowsToObjects(rows).map((activity) => {
     activity.timeOfDay = activity.timeOfDay
       ? activity.timeOfDay.split(";").map((s) => s.trim()).filter(Boolean)
       : ["any"];
@@ -275,10 +304,22 @@ function rowsToActivities(rows) {
   });
 }
 
+function rowsToChoicesByActivity(rows) {
+  const byActivity = {};
+  rowsToObjects(rows).forEach(({ activity_id, name, link }) => {
+    if (!activity_id) return;
+    (byActivity[activity_id] ||= []).push({ name, link });
+  });
+  return byActivity;
+}
+
 async function loadActivities() {
-  const res = await fetch("activities.csv");
-  const text = await res.text();
-  activities = rowsToActivities(parseCSV(text));
+  const [activitiesRes, choicesRes] = await Promise.all([
+    fetch("activities.csv"),
+    fetch("choices.csv"),
+  ]);
+  activities = rowsToActivities(parseCSV(await activitiesRes.text()));
+  choicesByActivity = rowsToChoicesByActivity(parseCSV(await choicesRes.text()));
   renderWizardStep();
 }
 

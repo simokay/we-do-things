@@ -14,16 +14,28 @@ A tiny static site, no build step, no framework — plain HTML/CSS/JS,
 deployed straight to GitHub Pages.
 
 - `index.html`, `style.css`, `app.js` — the whole app.
-- `data/activities.json` — the list of activities. Edit this file directly
-  to add, remove, or tweak ideas; the app reads it at runtime.
+- `data/activities.csv` — the list of activities, parsed in the browser at
+  load time. No build step: edit it, commit, and the live site picks it up.
 
-Each entry needs: `id` (unique slug), `name`, `description`, `location`
-(`home` / `indoor` / `outdoor` / `any`), `timeOfDay` (array of `morning` /
-`afternoon` / `evening`, or `["any"]` — only checked on weekends, weekdays
-assume an evening slot), `effort`, and `tag` (short sticker label shown on
-the result card, e.g. `"cozy"`). `link` is optional — a URL shown as
-"more info →" on the result card, for activities tied to a real place or
-event.
+### Editing the activity list
+
+Open `data/activities.csv` on GitHub and click the pencil (edit) icon — GitHub
+shows CSV files as an editable spreadsheet grid, so you can add, remove or
+tweak rows without touching any code. Each row is one activity:
+
+| column | meaning |
+|---|---|
+| `id` | unique slug, e.g. `cook-new-recipe` (lowercase, hyphens, no spaces) |
+| `name` | shown as the title on the result card |
+| `description` | shown under the title |
+| `location` | `home`, `indoor`, `outdoor`, or `any` |
+| `timeOfDay` | `morning`, `afternoon`, `evening`, or `any` — for more than one, separate with a semicolon, e.g. `morning;afternoon`. Only checked on weekends; weekdays assume an evening slot. |
+| `effort` | `low`, `medium`, or `high` — this means **distance from home, not exertion**: `low` = doorstep/at home, `medium` = a local outing, `high` = a proper trip further out. We're not an "exercise together" household beyond a long walk, so don't add dedicated workouts (cycling, running, swimming laps, climbing, skating) regardless of tier. |
+| `tag` | short sticker label on the result card, e.g. `cozy` |
+| `link` | optional — a URL shown as "more info →" on the result card. Leave blank if none. |
+
+If a description contains a comma, GitHub's spreadsheet editor handles the
+quoting for you automatically.
 
 `effort` is about **distance from home, not physical exertion** —
 `low` = doorstep/at home, `medium` = a local outing nearby, `high` = a

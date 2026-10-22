@@ -236,9 +236,68 @@ function spin() {
   renderResult(choice);
 }
 
+// Minimal RFC4180-ish CSV parser: handles quoted fields, embedded commas,
+// escaped "" quotes, and \r\n or \n line endings.
+function parseCSV(text) {
+  const rows = [];
+  let row = [];
+  let field = "";
+  let inQuotes = false;
+
+  for (let i = 0; i < text.length; i++) {
+    const char = text[i];
+    const next = text[i + 1];
+
+    if (inQuotes) {
+      if (char === '"' && next === '"') {
+        field += '"';
+        i++;
+      } else if (char === '"') {
+        inQuotes = false;
+      } else {
+        field += char;
+      }
+    } else if (char === '"') {
+      inQuotes = true;
+    } else if (char === ",") {
+      row.push(field);
+      field = "";
+    } else if (char === "\n" || char === "\r") {
+      if (char === "\r" && next === "\n") i++;
+      row.push(field);
+      field = "";
+      if (row.some((cell) => cell !== "")) rows.push(row);
+      row = [];
+    } else {
+      field += char;
+    }
+  }
+  if (field !== "" || row.length) {
+    row.push(field);
+    rows.push(row);
+  }
+  return rows;
+}
+
+function rowsToActivities(rows) {
+  const [header, ...dataRows] = rows;
+  return dataRows.map((row) => {
+    const activity = {};
+    header.forEach((col, i) => {
+      activity[col] = (row[i] || "").trim();
+    });
+    activity.timeOfDay = activity.timeOfDay
+      ? activity.timeOfDay.split(";").map((s) => s.trim()).filter(Boolean)
+      : ["any"];
+    if (!activity.link) delete activity.link;
+    return activity;
+  });
+}
+
 async function loadActivities() {
-  const res = await fetch("data/activities.json");
-  activities = await res.json();
+  const res = await fetch("data/activities.csv");
+  const text = await res.text();
+  activities = rowsToActivities(parseCSV(text));
   renderWizardStep();
 }
 

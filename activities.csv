@@ -63,18 +63,4 @@ st-albans-market,"Browse St Albans market, named Britain's best large outdoor ma
 ye-olde-fighting-cocks,"Pint at Ye Olde Fighting Cocks, reputedly one of England's oldest pubs.",indoor,evening,high,nightlife,
 parkland-walk,"Walk the Parkland Walk, a disused railway from Finsbury Park to Alexandra Palace.",outdoor,morning;afternoon,high,outdoors,https://en.wikipedia.org/wiki/Parkland_Walk
 brighton-beach-walk,"Day trip to walk Brighton beach — about an hour direct, pebbles past the pier.",outdoor,morning;afternoon,high,outdoors,
-south-london-gallery,Catch a free contemporary art show at the South London Gallery in Peckham.,indoor,afternoon,medium,culture,https://www.southlondongallery.org/
-garden-museum,"Visit the Garden Museum, a deconsecrated church by Lambeth Palace telling garden history.",indoor,afternoon,medium,culture,https://gardenmuseum.org.uk/
-black-cultural-archives,Explore Black British history at the Black Cultural Archives on Windrush Square.,indoor,afternoon,medium,culture,https://blackculturalarchives.org/
-cinema-museum,"Take a guided tour of the Cinema Museum, housed in Charlie Chaplin's old workhouse.",indoor,afternoon,medium,culture,https://cinemamuseum.org.uk/
-imperial-war-museum,Explore the free Imperial War Museum on Lambeth Road.,indoor,afternoon,medium,culture,https://www.iwm.org.uk/visits/iwm-london
-british-museum,"Explore the British Museum's world collections, free entry, in Bloomsbury.",indoor,afternoon,high,culture,https://www.britishmuseum.org/
-national-gallery,See Old Masters at the free National Gallery on Trafalgar Square.,indoor,afternoon,high,culture,https://www.nationalgallery.org.uk/
-tate-britain,"Wander Tate Britain's five centuries of British art on Millbank, free entry.",indoor,afternoon,high,culture,https://www.tate.org.uk/visit/tate-britain
-victoria-and-albert-museum,Explore the V&A's design and decorative arts collection in South Kensington.,indoor,afternoon,high,culture,https://www.vam.ac.uk/
-natural-history-museum,See the blue whale and dinosaur skeletons at the Natural History Museum.,indoor,afternoon,high,culture,https://www.nhm.ac.uk/
-science-museum,"Explore interactive galleries at the Science Museum in South Kensington, free entry.",indoor,afternoon,high,culture,https://www.sciencemuseum.org.uk/
-sir-john-soanes-museum,"Get lost in Sir John Soane's eccentric, crammed house-museum near Holborn.",indoor,afternoon,high,culture,https://www.soane.org/
-wallace-collection,See armour and Old Masters for free at the Wallace Collection near Oxford Street.,indoor,afternoon,high,culture,https://wallacecollection.org/
-national-portrait-gallery,"Browse centuries of British faces at the National Portrait Gallery, Trafalgar Square.",indoor,afternoon,high,culture,https://www.npg.org.uk/
-design-museum,Explore product and fashion design at the Design Museum in Kensington.,indoor,afternoon,high,culture,https://designmuseum.org/
+museum-or-gallery,Visit a museum or gallery — pick one from a shortlist of London favourites.,indoor,afternoon,medium,culture,

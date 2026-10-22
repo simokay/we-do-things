@@ -41,12 +41,18 @@ tweak rows without touching any code. Each row is one activity:
 | `activity` | one short sentence shown on the result card — what it is and the one detail that makes it specific |
 | `location` | `home`, `indoor`, `outdoor`, or `any` |
 | `timeOfDay` | `morning`, `afternoon`, `evening`, or `any` — for more than one, separate with a semicolon, e.g. `morning;afternoon`. Only checked on weekends; weekdays assume an evening slot. |
-| `effort` | `low`, `medium`, or `high` — this means **distance from home, not exertion**: `low` = doorstep/at home, `medium` = an outing in town, `high` = a proper trip further out. We're not an "exercise together" household beyond a long walk, so don't add dedicated workouts (cycling, running, swimming laps, climbing, skating) regardless of tier. |
+| `effort` | `low`, `medium`, or `high` — this means **distance from home, not exertion**: `low` = doorstep/at home, `medium` = an outing in town, `high` = a proper trip further out. |
 | `tag` | short sticker label on the result card, e.g. `cozy` |
 | `link` | optional — a URL shown as "more info →" on the result card. Leave blank if none. |
 
 If a field contains a comma, GitHub's spreadsheet editor handles the quoting
 for you automatically.
+
+**Content guidelines**, so activities don't need re-litigating each time:
+- No dedicated workouts (cycling, running, swimming laps, climbing, skating)
+  regardless of effort tier — a long walk is the exception, see `effort` above.
+- No pub-centric or beer-drinking activities (pub quizzes, brewery tours,
+  "pint at the ___").
 
 ## Local preview
 

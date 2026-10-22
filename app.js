@@ -52,7 +52,6 @@ const state = {
 };
 
 let activities = [];
-let choicesByActivity = {};
 let lastId = null;
 let wizardIndex = 0;
 
@@ -178,7 +177,11 @@ function renderTopbar() {
 
 // ---------- result ----------
 
+let resultToken = 0;
+
 function renderResult(activity) {
+  const token = ++resultToken;
+
   document.getElementById("result-activity").textContent = activity.activity;
   document.getElementById("result-tag").textContent = activity.tag || "idea";
 
@@ -191,9 +194,10 @@ function renderResult(activity) {
   }
 
   const choicesEl = document.getElementById("result-choices");
-  const choices = choicesByActivity[activity.id];
   choicesEl.innerHTML = "";
-  if (choices && choices.length) {
+  choicesEl.hidden = true;
+  getChoicesFor(activity.id).then((choices) => {
+    if (token !== resultToken || !choices.length) return;
     const label = document.createElement("span");
     label.className = "choices-label";
     label.textContent = "pick one:";
@@ -208,9 +212,7 @@ function renderResult(activity) {
       choicesEl.appendChild(a);
     });
     choicesEl.hidden = false;
-  } else {
-    choicesEl.hidden = true;
-  }
+  });
 
   resultWrap.hidden = false;
   emptyState.hidden = true;
@@ -304,22 +306,34 @@ function rowsToActivities(rows) {
   });
 }
 
-function rowsToChoicesByActivity(rows) {
-  const byActivity = {};
-  rowsToObjects(rows).forEach(({ activity_id, name, link }) => {
-    if (!activity_id) return;
-    (byActivity[activity_id] ||= []).push({ name, link });
-  });
-  return byActivity;
+// Per-activity choice files live at choices/<activity id>.csv. Most
+// activities won't have one, so this is fetched lazily and cached rather
+// than requiring a manifest of which ids have a file.
+const choicesCache = {};
+
+async function getChoicesFor(activityId) {
+  if (activityId in choicesCache) return choicesCache[activityId];
+  try {
+    const res = await fetch(`choices/${activityId}.csv`);
+    if (!res.ok) {
+      choicesCache[activityId] = [];
+      return [];
+    }
+    const rows = rowsToObjects(parseCSV(await res.text()));
+    const choices = rows
+      .filter((row) => row.name && !row.done)
+      .map(({ name, link }) => ({ name, link }));
+    choicesCache[activityId] = choices;
+    return choices;
+  } catch {
+    choicesCache[activityId] = [];
+    return [];
+  }
 }
 
 async function loadActivities() {
-  const [activitiesRes, choicesRes] = await Promise.all([
-    fetch("activities.csv"),
-    fetch("choices.csv"),
-  ]);
-  activities = rowsToActivities(parseCSV(await activitiesRes.text()));
-  choicesByActivity = rowsToChoicesByActivity(parseCSV(await choicesRes.text()));
+  const res = await fetch("activities.csv");
+  activities = rowsToActivities(parseCSV(await res.text()));
   renderWizardStep();
 }
 

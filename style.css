@@ -35,11 +35,38 @@ body {
   font-family: var(--font-body);
   color: var(--c-ink);
   background: var(--c-cream);
+  overflow-x: hidden;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: -10%;
+  z-index: -1;
   background-image: radial-gradient(circle at 12% 18%, var(--c-cream-2) 0, transparent 42%),
     radial-gradient(circle at 88% 8%, var(--c-pink-soft) 0, transparent 38%),
     radial-gradient(circle at 92% 82%, var(--c-sky) 0, transparent 30%),
     radial-gradient(circle at 6% 88%, var(--c-lime) 0, transparent 26%);
-  overflow-x: hidden;
+  background-size: 140% 140%;
+  animation: drift-bg 36s ease-in-out infinite alternate, cycle-hue 48s linear infinite;
+}
+
+@keyframes drift-bg {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 60% 40%; }
+  100% { background-position: 20% 80%; }
+}
+
+@keyframes cycle-hue {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body::before {
+    animation: none;
+  }
 }
 
 h1, h2, h3, h4 {

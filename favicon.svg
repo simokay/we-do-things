@@ -1,21 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <!-- Deep Cherry/Bordeaux Background -->
+  <!-- Deep Bordeaux Background -->
   <rect width="64" height="64" rx="14" fill="#4A0E17" />
+
+  <!-- Outer Spinner Track -->
+  <circle cx="32" cy="32" r="23" stroke="#80142B" stroke-width="4" fill="none" />
   
-  <!-- High-Contrast Cream Graphic "2" -->
-  <path d="M 18 26 
-           C 18 17, 26 14, 33 14 
-           C 42 14, 47 19, 47 26 
-           C 47 34, 37 40, 29 45 
-           L 48 45 
-           L 48 51 
-           L 16 51 
-           L 16 45 
-           C 27 38, 39 33, 39 26 
-           C 39 21, 35 19, 32 19 
-           C 27 19, 24 22, 24 26 
-           Z" fill="#FFF6F0" />
-        
-  <!-- Subtle Editorial Sparkle Mark -->
-  <path d="M 44 14 L 45.5 18 L 49.5 19.5 L 45.5 21 L 44 25 L 42.5 21 L 38.5 19.5 L 42.5 18 Z" fill="#FF85A1" />
+  <!-- Active Arc Segment (Glossier Pink Accent) -->
+  <path d="M 32 9 A 23 23 0 0 1 55 32" fill="none" stroke="#FF85A1" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Left Heart (Glossier Pink Outline) -->
+  <path d="M 27 28 C 27 24.5 24 22 21 22 C 17.5 22 15 25 15 28.5 C 15 34 21 38 27 41 C 33 38 39 34 39 28.5 C 39 25 36.5 22 33 22 C 30 22 27 24.5 27 28 Z" fill="none" stroke="#FF85A1" stroke-width="2.5" stroke-linejoin="round" />
+
+  <!-- Right Heart (Cream Outline) -->
+  <path d="M 37 28 C 37 24.5 34 22 31 22 C 27.5 22 25 25 25 28.5 C 25 34 31 38 37 41 C 43 38 49 34 49 28.5 C 49 25 46.5 22 43 22 C 40 22 37 24.5 37 28 Z" fill="none" stroke="#FFF6F0" stroke-width="2.5" stroke-linejoin="round" />
 </svg>

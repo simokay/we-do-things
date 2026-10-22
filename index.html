@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>We Do Things — activity picker</title>
+  <meta name="description" content="Pick a few dials and get a random activity to do together." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Space+Grotesk:wght@400;500;700&family=Bungee&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <span class="eyebrow">we do things</span>
+      <h1 class="hero-title">what should we<br />do together?</h1>
+      <p class="subtitle">
+        Answer a couple of quick questions and we'll land on something to do.
+      </p>
+    </header>
+
+    <main class="main">
+      <!-- step-by-step wizard, shown before the first suggestion -->
+      <section class="card wizard" id="wizard" aria-label="Questions">
+        <div class="wizard-progress" id="wizard-progress"></div>
+        <div class="wizard-step" id="wizard-step"></div>
+      </section>
+
+      <!-- compact adjustable bar, shown once a suggestion exists -->
+      <section class="topbar" id="topbar" hidden aria-label="Adjust your answers">
+        <div class="topbar-fields" id="topbar-fields"></div>
+        <div class="topbar-actions">
+          <button class="btn btn-pink btn-spin" id="spin-btn" type="button">🎲 pick again</button>
+          <span class="match-count" id="match-count"></span>
+        </div>
+      </section>
+
+      <section class="result-wrap" id="result-wrap" hidden>
+        <article class="card map-poster" id="result-card">
+          <span class="sticker sticker-result" id="result-tag">idea</span>
+          <h2 id="result-name">—</h2>
+          <p id="result-desc"></p>
+          <div class="chip-grid" id="result-meta"></div>
+        </article>
+      </section>
+
+      <section class="empty-state" id="empty-state" hidden>
+        <p>Nothing matches that combo yet — adjust something above.</p>
+      </section>
+    </main>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

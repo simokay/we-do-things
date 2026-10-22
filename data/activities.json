@@ -1,0 +1,342 @@
+[
+  {
+    "id": "cook-new-recipe",
+    "name": "Cook a recipe neither of you has made before",
+    "description": "Pick something slightly ambitious from a cookbook or a random recipe site and cook it together, start to finish.",
+    "location": "indoor",
+    "timeOfDay": [
+      "afternoon",
+      "evening"
+    ],
+    "effort": "medium",
+    "tag": "kitchen"
+  },
+  {
+    "id": "picnic-local-park",
+    "name": "Pack a picnic and walk to the nearest park",
+    "description": "Nothing fancy \u2014 bread, cheese, fruit, a blanket. The point is sitting outside with no screens.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "afternoon"
+    ],
+    "effort": "low",
+    "tag": "outdoors"
+  },
+  {
+    "id": "sunrise-walk",
+    "name": "Go for a sunrise walk",
+    "description": "Set an alarm, grab coffee in a flask, and watch the sky change together before the day starts properly.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "morning"
+    ],
+    "effort": "low",
+    "tag": "outdoors"
+  },
+  {
+    "id": "board-game-night",
+    "name": "Board game tournament for two",
+    "description": "Pick two or three games and play a best-of-three series. Loser makes tea.",
+    "location": "indoor",
+    "timeOfDay": [
+      "evening"
+    ],
+    "effort": "low",
+    "tag": "games"
+  },
+  {
+    "id": "bike-ride-somewhere-new",
+    "name": "Bike somewhere you've never been",
+    "description": "Pick a direction neither of you usually goes and follow it for twenty minutes, then turn around.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "morning",
+      "afternoon"
+    ],
+    "effort": "high",
+    "tag": "adventure"
+  },
+  {
+    "id": "museum-or-gallery",
+    "name": "Visit a museum or gallery",
+    "description": "Doesn't have to be the big famous one \u2014 a small local gallery works just as well.",
+    "location": "indoor",
+    "timeOfDay": [
+      "afternoon"
+    ],
+    "effort": "low",
+    "tag": "culture"
+  },
+  {
+    "id": "jigsaw-puzzle",
+    "name": "Start a jigsaw puzzle",
+    "description": "Put something on in the background and work on it together over an evening or two.",
+    "location": "indoor",
+    "timeOfDay": [
+      "evening"
+    ],
+    "effort": "low",
+    "tag": "cozy"
+  },
+  {
+    "id": "swim-outdoors",
+    "name": "Find somewhere to swim outdoors",
+    "description": "A lido, a lake, the sea \u2014 whatever's nearby and open.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "morning",
+      "afternoon"
+    ],
+    "effort": "high",
+    "tag": "adventure"
+  },
+  {
+    "id": "home-cinema-night",
+    "name": "Build a home cinema night",
+    "description": "Blackout the room, make proper snacks, pick a film you've both been meaning to watch.",
+    "location": "indoor",
+    "timeOfDay": [
+      "evening"
+    ],
+    "effort": "low",
+    "tag": "cozy"
+  },
+  {
+    "id": "farmers-market",
+    "name": "Wander a farmers market or car boot sale",
+    "description": "No shopping list. Just browse, taste samples, and see what you end up with.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "morning"
+    ],
+    "effort": "low",
+    "tag": "outdoors"
+  },
+  {
+    "id": "hike-half-day",
+    "name": "Half-day hike",
+    "description": "Pick a trail you haven't done, pack proper snacks and water, and commit to the whole thing.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "morning",
+      "afternoon"
+    ],
+    "effort": "high",
+    "tag": "adventure"
+  },
+  {
+    "id": "cocktail-making",
+    "name": "Try making a cocktail you've never had",
+    "description": "Look up a recipe, buy whatever's missing, and make a mess of the kitchen together.",
+    "location": "indoor",
+    "timeOfDay": [
+      "evening"
+    ],
+    "effort": "low",
+    "tag": "kitchen"
+  },
+  {
+    "id": "photo-walk",
+    "name": "Photo walk, phones only",
+    "description": "Set a loose theme (doors, textures, dogs) and each take ten photos while you walk.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "afternoon"
+    ],
+    "effort": "medium",
+    "tag": "outdoors"
+  },
+  {
+    "id": "new-cafe-crawl",
+    "name": "Cafe crawl",
+    "description": "Pick two or three coffee shops you've never been to and have a small something at each.",
+    "location": "indoor",
+    "timeOfDay": [
+      "morning",
+      "afternoon"
+    ],
+    "effort": "low",
+    "tag": "culture"
+  },
+  {
+    "id": "stargazing",
+    "name": "Stargazing somewhere dark",
+    "description": "Drive or walk out past the streetlights, bring a blanket, and just look up for a while.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "evening"
+    ],
+    "effort": "low",
+    "tag": "cozy"
+  },
+  {
+    "id": "learn-a-dance",
+    "name": "Learn a short dance together",
+    "description": "Find a beginner tutorial online and actually follow it through, even badly.",
+    "location": "indoor",
+    "timeOfDay": [
+      "evening"
+    ],
+    "effort": "medium",
+    "tag": "games"
+  },
+  {
+    "id": "pottery-or-craft-class",
+    "name": "Book a one-off craft class",
+    "description": "Pottery, life drawing, candle-making \u2014 whatever's running locally this week.",
+    "location": "indoor",
+    "timeOfDay": [
+      "afternoon",
+      "evening"
+    ],
+    "effort": "medium",
+    "tag": "culture"
+  },
+  {
+    "id": "scenic-drive",
+    "name": "Scenic drive with no destination",
+    "description": "Pick a direction, put on a playlist, and stop wherever looks interesting.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "afternoon"
+    ],
+    "effort": "low",
+    "tag": "adventure"
+  },
+  {
+    "id": "cook-for-neighbours",
+    "name": "Cook a big meal and invite someone over",
+    "description": "More work, more reward \u2014 plan a menu and host, even if it's casual.",
+    "location": "indoor",
+    "timeOfDay": [
+      "evening"
+    ],
+    "effort": "high",
+    "tag": "kitchen"
+  },
+  {
+    "id": "morning-run-together",
+    "name": "Run together, whatever pace",
+    "description": "Doesn't need to be fast or far \u2014 the point is doing it side by side.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "morning"
+    ],
+    "effort": "high",
+    "tag": "adventure"
+  },
+  {
+    "id": "card-game-marathon",
+    "name": "Card game marathon",
+    "description": "Pick a two-player card game and play until one of you hits a target score.",
+    "location": "indoor",
+    "timeOfDay": [
+      "any"
+    ],
+    "effort": "low",
+    "tag": "games"
+  },
+  {
+    "id": "bookshop-and-bench",
+    "name": "Browse a bookshop, then read on a bench",
+    "description": "Each pick something for the other, then sit outside and read the first chapter.",
+    "location": "any",
+    "timeOfDay": [
+      "afternoon"
+    ],
+    "effort": "low",
+    "tag": "cozy"
+  },
+  {
+    "id": "try-new-cuisine",
+    "name": "Eat a cuisine you've never tried",
+    "description": "Find a restaurant for food neither of you has eaten before and go in with no expectations.",
+    "location": "indoor",
+    "timeOfDay": [
+      "evening"
+    ],
+    "effort": "low",
+    "tag": "culture"
+  },
+  {
+    "id": "climbing-wall",
+    "name": "Try an indoor climbing wall",
+    "description": "Most centres do taster sessions \u2014 no experience needed, just shoes you can borrow.",
+    "location": "indoor",
+    "timeOfDay": [
+      "afternoon",
+      "evening"
+    ],
+    "effort": "high",
+    "tag": "adventure"
+  },
+  {
+    "id": "garden-or-balcony-project",
+    "name": "Start a small garden or balcony project",
+    "description": "A few pots, some herbs or flowers, an afternoon getting your hands dirty.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "afternoon"
+    ],
+    "effort": "medium",
+    "tag": "cozy"
+  },
+  {
+    "id": "karaoke-at-home",
+    "name": "Karaoke at home",
+    "description": "Find a karaoke playlist online and take turns picking songs. No judgment.",
+    "location": "indoor",
+    "timeOfDay": [
+      "evening"
+    ],
+    "effort": "medium",
+    "tag": "games"
+  },
+  {
+    "id": "free-walking-tour",
+    "name": "Do a free walking tour of your own city",
+    "description": "Look up a self-guided or free tour of somewhere near you you've never actually explored properly.",
+    "location": "outdoor",
+    "timeOfDay": [
+      "morning",
+      "afternoon"
+    ],
+    "effort": "medium",
+    "tag": "culture"
+  },
+  {
+    "id": "bake-together",
+    "name": "Bake something from scratch",
+    "description": "Bread, a cake, anything with a few fiddly steps you have to do together.",
+    "location": "indoor",
+    "timeOfDay": [
+      "morning",
+      "afternoon"
+    ],
+    "effort": "medium",
+    "tag": "kitchen"
+  },
+  {
+    "id": "do-nothing-together",
+    "name": "Plan a do-nothing afternoon",
+    "description": "No activity at all \u2014 just the same room, same blanket, no agenda.",
+    "location": "indoor",
+    "timeOfDay": [
+      "afternoon"
+    ],
+    "effort": "low",
+    "tag": "cozy"
+  },
+  {
+    "id": "mini-golf-or-arcade",
+    "name": "Mini golf or an arcade",
+    "description": "Pure low-stakes competition. Loser buys the next round of something.",
+    "location": "indoor",
+    "timeOfDay": [
+      "afternoon",
+      "evening"
+    ],
+    "effort": "medium",
+    "tag": "games"
+  }
+]
